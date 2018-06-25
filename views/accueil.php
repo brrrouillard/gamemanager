@@ -1,1 +1,1 @@
-<p>Bienvenue sur la page d'accueil <?php echo $_SESSION['pseudo']; ?></p>
+<p>Bienvenue sur la page d'accueil <?php echo $_SESSION['pseudo'];?> ! </p>
