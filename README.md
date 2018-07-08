@@ -2,8 +2,8 @@
 A Game Manager website written in PHP using MVC architecture. 
 
 ## Purpose
-I started to build this website as a personal project to pratice my abilities in PHP, using the MVC architecture as we saw in class.
-In addition to PHP, I also use it to practice my HTML and CSS fundamentals. It also made me use Bootstrap for the first time.
+I started to build this website as a personal project to practice my abilities in PHP, using the MVC architecture as we saw in class.
+In addition to PHP, I used it to practice my HTML and CSS fundamentals. It also made me use Bootstrap for the first time.
 I plan to add some JavaScript (and jQuery) after finishing implemanting the fundamentals of the website.
 
 ## Features
@@ -19,6 +19,7 @@ I plan to add some JavaScript (and jQuery) after finishing implemanting the fund
 - Implement a way to let a user establish and manage his own games collection.
 - Implement an admin panel (users and games management).
 - Let people vote for their favorite games and show results next to them.
+- Add some JavaScript and jQuery.
 
 ## Technical overview
 - Built from scratch using the Model-View-Controller architecture, using Object-Oriented PHP.
