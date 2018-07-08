@@ -6,9 +6,19 @@ I started to build this website as a personal project to pratice my abilities in
 In addition to PHP, I also use it to practice my HTML and CSS fundamentals. It also made me use Bootstrap for the first time.
 I plan to add some JavaScript (and jQuery) after finishing implemanting the fundamentals of the website.
 
-## Functionalities
-- Manage 
--
+## Features
+- Manage a list of video-games. Sort them by name, editor or release date.
+- Add your own games to the list.
+- Chat with other users in semi-realtime (refresh needed to show new messages).
+- Register and login.
+
+## To Do
+- Rewrite the code to make it fully English-written.
+- Check security issues (SQL injections, XSS).
+- Implement a page to let user modify his informations.
+- Implement a way to let a user establish and manage his own games collection.
+- Implement an admin panel (users and games management).
+- Let people vote for their favorite games and show results next to them.
 
 ## Technical overview
 - Built from scratch using the Model-View-Controller architecture, using Object-Oriented PHP.
