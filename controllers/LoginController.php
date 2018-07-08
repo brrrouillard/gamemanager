@@ -20,6 +20,7 @@ class LoginController{
             $notification = 'Connexion réussie !';
             $_SESSION['pseudoUtilisateur'] = $_POST['username'];
             $_SESSION['authentifie'] = true;
+            die();
         }
         elseif (!$this->_db->validate_user($_POST['username'],$_POST['password'])){
             $notification = 'Pseudo ou mot de passe incorrect';

@@ -120,7 +120,7 @@ class Db {
 		$ps->execute(); 
 		$tableau = array();
 		while ($row = $ps->fetch()) {		
-				$tableau[] = new Game($row->id,$row->name,$row->editor,$row->release_year);
+				$tableau[] = new Game($row->id,$row->name,$row->editor,$row->release_year, $row->nb_votes);
 		}	
 		# var_dump($tableau);
 		return $tableau;
@@ -133,7 +133,7 @@ class Db {
 		$ps->execute(); 
 		$tableau = array();
 		while ($row = $ps->fetch()) {		
-				$tableau[] = new Game($row->id,$row->name,$row->editor,$row->release_year);
+				$tableau[] = new Game($row->id,$row->name,$row->editor,$row->release_year, $row->nb_votes);
 		}	
 		# var_dump($tableau);
 		return $tableau;
