@@ -6,7 +6,7 @@ A Game Manager website written in PHP using MVC architecture.
 ### Prerequisites
 Any PHP development environment. I used MAMP but anything else should work.
 
-### Installing and running
+### Installing and Running
 The only thing to be aware of is to change the MySQL login informations (*see /models/Db.class.php **line 10** *).
 
 ## Purpose
@@ -29,10 +29,19 @@ I plan to add some JavaScript (and jQuery) after finishing implemanting the fund
 - Check security issues (SQL injections, XSS).
 - Add some JavaScript and jQuery.
 
-## Technical overview
+## Technical Overview
 - Built using Object-Oriented vanilla PHP and a Model-View-Controller architecture.
 - Design made using Bootstrap 4.
 - Entirely W3C valid.
 - All SQL queries are written using PDO and are grouped in an unique class (*see /models/Db.class.php*).
 - Every entity from the SQL database can and is represented by a dedicated object (kind of Object-Relational Mapping). 
 - There is no JavaScript used at the moment since we haven't seen it in class, but I'm working on it on my free time.
+
+## Built With
+
+* [Bootstrap](https://getbootstrap.com/) 
+* [Visual Studio Code](https://code.visualstudio.com/) 
+
+## Authors
+
+* **Matthieu Brouillard** - [brrrouillard](https://twitter.com/brrrouillard)
